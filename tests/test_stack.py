@@ -54,6 +54,6 @@ class TestMyStack:
         s.pop()
         assert s.get_stack_peek() == 1000
         assert s.get_stack_size() == 3
-        assert s.get_stack_elements() == [1,2]
+        assert s.get_stack_elements() == [1,2,1000]
 
 
